@@ -7,6 +7,9 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// TODO 살펴보자.
+// https://sourcegraph.com/github.com/moby/moby/-/blob/cli/cobra.go
+
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
