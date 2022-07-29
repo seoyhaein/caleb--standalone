@@ -1,0 +1,25 @@
+dist: jammy
+
+language: go
+
+go:
+  - 1.18.x
+
+env:
+  - GO111MODULE=on
+
+git:
+  depth: 1
+  submodules: false
+
+#before_script:
+#  - go get -u github.com/spf13/cobra@latest
+
+# Skip the install step. Don't `go get` dependencies. Only build with the code
+# in vendor/
+install: true
+
+script:
+  - go mod tidy
+  - go mod vendor
+  - go test -v ./...
