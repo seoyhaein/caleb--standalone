@@ -11,6 +11,8 @@ import (
 )
 
 // 추후 아래 상수들에 대해서 설명하기
+// TODO 읽어주기
+// https://www.mpi-hd.mpg.de/personalhomes/fwerner/research/2021/09/grpc-for-ipc/
 const (
 	maxRequestBytes   = 1.5 * 1024 * 1024
 	grpcOverheadBytes = 512 * 1024

@@ -9,3 +9,9 @@
 - https://github.com/spf13/cobra/blob/main/user_guide.md
 - cobra completion
 - https://blog.devgenius.io/shell-completion-with-cobra-and-go-c8368074d8f7
+
+1. cobra
+2. error
+3. service
+4. grpc
+5. log

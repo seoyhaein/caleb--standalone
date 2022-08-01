@@ -1,0 +1,5 @@
+
+network: "tcp"
+
+ports:
+  - ":50052"
